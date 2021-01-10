@@ -1,0 +1,30 @@
+{
+  "name": "game-group",
+  "version": "1.0.0",
+  "description": "Discord bot GameGroup - Find and compare Steam games across Discord users",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaHallee/game-group.git"
+  },
+  "author": "Joshua Hallee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuaHallee/game-group/issues"
+  },
+  "homepage": "https://github.com/joshuaHallee/game-group#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cross-env": "^7.0.3",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
