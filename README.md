@@ -16,7 +16,7 @@ BOT_TOKEN=
 ---
 Below are directions for either development or production use
 1. Clone project repository
-2. Update `prefix` in `config.json`
+2. Update `prefix` in `config.json` (Default: !gg)
 3. Run `npm install` in project directory
 4. Run `npm run dev` for development use
 5. Run `npm start` for production use
